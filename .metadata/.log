@@ -1485,3 +1485,6 @@ Caused by: java.util.zip.ZipException: Not in GZIP format
 	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:116)
 	at org.eclipse.oomph.p2.internal.core.LazyProfileRegistry.loadProfile(LazyProfileRegistry.java:275)
 	... 23 more
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-10-15 09:20:57.044
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob
