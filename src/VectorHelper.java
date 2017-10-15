@@ -77,11 +77,11 @@ public class VectorHelper {
 	{
 		//Formule est une classe qui contienne un ensemble d'operations 
 		//qu'on peut les appliquer sur un element d'un vecteur 
-		Formules F= new Formules();
+		Formules Fa= new Formules();
 		
 		for(int i=0;i<v.size();i++)
 		{
-		  v.setElementAt(F.Doubler(v.elementAt(i)), i);
+		  v.setElementAt(Fa.Doubler(v.elementAt(i)), i);
 		}
 		
 		
