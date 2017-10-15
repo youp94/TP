@@ -26,7 +26,7 @@ public class Main {
 		}
 		
 		VectorHelper.invese(res);
-		
+		VectorHelper.AppliquerFormule(res);
 		for(int i=0;i<res.size();i++) {
 			System.out.println(res.elementAt(i));
 		}

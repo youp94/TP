@@ -73,7 +73,7 @@ public class VectorHelper {
 	
 	//Appliquer une formule sous forme de fonction � tous les �l�ments d�un vecteur
 	
-	public void AppliquerFormule(Vector<Integer> v)
+	public static void AppliquerFormule(Vector<Integer> v)
 	{
 		//Formule est une classe qui contienne un ensemble d'operations 
 		//qu'on peut les appliquer sur un element d'un vecteur 
