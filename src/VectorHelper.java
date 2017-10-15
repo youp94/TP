@@ -31,4 +31,14 @@ public class VectorHelper {
 		}
 		return res;
 	}
-}
+	
+	public static void invese(Vector<Integer> v) {
+		int len = v.size();
+		int tmp;
+	    for(int i=0 ; i < len/2 ; i++) {
+	        tmp = v.elementAt(i);
+	        v.setElementAt(v.elementAt(len-i-1), i);
+	        v.setElementAt(tmp, len-i-1);
+	    }
+	}
+} 

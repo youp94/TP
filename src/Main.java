@@ -25,6 +25,8 @@ public class Main {
 			e.printStackTrace();
 		}
 		
+		VectorHelper.invese(res);
+		
 		for(int i=0;i<res.size();i++) {
 			System.out.println(res.elementAt(i));
 		}
