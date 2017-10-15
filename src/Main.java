@@ -30,6 +30,10 @@ public class Main {
 		for(int i=0;i<res.size();i++) {
 			System.out.println(res.elementAt(i));
 		}
+		System.out.println();
+		
+		Integer[] tab = VectorHelper.MinMax(res);
+		System.out.println("min="+tab[0]+" max="+tab[1]);
 	}
 
 }
