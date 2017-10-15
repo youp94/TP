@@ -9,9 +9,24 @@ public class Main {
 		v.add(3);
 		v.add(10);
 		v.add(6);
-		VectorHelper.tri(v);
-		for(int i=0;i<v.size();i++) {
-			System.out.println(v.elementAt(i));
+		
+		Vector<Integer> v2 = new Vector<>();
+		v2.add(5);
+		v2.add(4);
+		v2.add(3);
+		v2.add(10);
+		v2.add(6);
+		
+		//VectorHelper.tri(v);
+		Vector<Integer> res = null;
+		try {
+			res = VectorHelper.somme(v, v2);
+		} catch (SizeException e) {
+			e.printStackTrace();
+		}
+		
+		for(int i=0;i<res.size();i++) {
+			System.out.println(res.elementAt(i));
 		}
 	}
 
