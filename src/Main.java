@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Vector<Integer> v = new Vector<>();
-		//v.add(5);
+		v.add(5);
 		v.add(4);
 		v.add(3);
 		v.add(10);
@@ -34,6 +34,8 @@ public class Main {
 		
 		Integer[] tab = VectorHelper.MinMax(res);
 		System.out.println("min="+tab[0]+" max="+tab[1]);
+		
+		
 	}
 
 }
