@@ -9,7 +9,6 @@ public class Main {
 		v.add(3);
 		v.add(10);
 		v.add(6);
-		
 		Vector<Integer> v2 = new Vector<>();
 		v2.add(5);
 		v2.add(4);
