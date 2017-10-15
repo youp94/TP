@@ -41,4 +41,36 @@ public class VectorHelper {
 	        v.setElementAt(tmp, len-i-1);
 	    }
 	}
+	
+	public static Integer[] MinMax(Vector<Integer> v)
+	{
+		Integer Tab[]=new Integer[2];
+		Integer min=v.elementAt(0),max=v.elementAt(0);
+		
+		for(int i=0;i<v.size();i++)
+		{
+			if(v.elementAt(i)>max)
+			{
+				max=v.elementAt(i);
+			}
+			if(v.elementAt(i)<min)
+			{
+				min=v.elementAt(i);
+			}
+			
+			
+		}
+			Tab[0]=min;
+			Tab[1]=max;
+		
+		return Tab;
+		
+		
+		
+	}
+	
+	
+	
+	
+	
 } 
