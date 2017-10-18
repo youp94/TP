@@ -42,7 +42,6 @@ public class VectorHelper {
 	    }
 	}
 	
-	// Obtenir simultanément le minimum et le maximum d’un vecteur 
 
 	public static Integer[] MinMax(Vector<Integer> v)
 	{
@@ -71,9 +70,9 @@ public class VectorHelper {
 		
 	}
 	
-	//Appliquer une formule sous forme de fonction à tous les éléments d’un vecteur
+
 	
-	public void AppliquerFormule(Vector<Integer> v)
+	public static void AppliquerFormule(Vector<Integer> v)
 	{
 		//Formule est une classe qui contienne un ensemble d'operations 
 		//qu'on peut les appliquer sur un element d'un vecteur 
