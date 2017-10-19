@@ -1,11 +1,15 @@
 import static org.junit.Assert.*;
 
+import java.util.Vector;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 public class VectorHelperTest {
 
+	Vector<Integer> v = new Vector<>();
+	
 	@Before
 	public void setUp() throws Exception {
 	}
@@ -15,8 +19,8 @@ public class VectorHelperTest {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testTri() {
+		assertEquals(1,1);
 	}
 
 }
