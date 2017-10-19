@@ -1,7 +1,15 @@
 import java.util.Vector;
-
+/**
+ * 
+ * @author azzaz hichem
+ *
+ */
 public class VectorHelper {
-	
+	/**
+	 * 
+	 * @param v le vecteur en entrée
+	 * La méthode genere un vecteur trié à partir de v 
+	 */
 	public static void tri(Vector<Integer> v) {
 		int longueur = v.size();
 		int tampon = 0;
@@ -18,7 +26,14 @@ public class VectorHelper {
 			}
 		} while (permut);
 	}
-	
+	/**
+	 * 
+	 * @param v le premier vecteur à sommer 
+	 * @param v2 le second vecteur à sommer 
+	 * @return le resultat de la somme de v+v2
+	 * @throws SizeException une excepiton en cas de difference
+	 *  de taille des 2 vecteurs v et v2
+	 */
 	public static Vector<Integer> somme(Vector<Integer> v, Vector<Integer> v2)throws SizeException{
 		Vector<Integer> res = null;
 		if(v.size()!=v2.size()) {
@@ -31,7 +46,11 @@ public class VectorHelper {
 		}
 		return res;
 	}
-	
+	/**
+	 * 
+	 * @param v est le vecteur à inversser 
+	 * le methode effectue une inverssin du vecteur v 
+	 */
 	public static void invese(Vector<Integer> v) {
 		int len = v.size();
 		int tmp;
@@ -42,7 +61,15 @@ public class VectorHelper {
 	    }
 	}
 	
+<<<<<<< HEAD
 
+=======
+/**
+ * 
+ * @param v le vecteur dont on veut trouver son minimum et maximum
+ * @return on retourne  un tableau de 2 cases contenant le min et le max de v
+ */
+>>>>>>> 1eb797f0f8f8df3d578d99e735d9292661b4c62b
 	public static Integer[] MinMax(Vector<Integer> v)
 	{
 		Integer Tab[]=new Integer[2];
@@ -71,16 +98,24 @@ public class VectorHelper {
 	}
 	
 
+<<<<<<< HEAD
 	
+=======
+	/**
+	 * 
+	 * @param v est le vecteur dont on veut lui appliquer une formule 
+	 * precedement définie 
+	 */
+>>>>>>> 1eb797f0f8f8df3d578d99e735d9292661b4c62b
 	public static void AppliquerFormule(Vector<Integer> v)
 	{
 		//Formule est une classe qui contienne un ensemble d'operations 
 		//qu'on peut les appliquer sur un element d'un vecteur 
-		Formules F= new Formules();
+		Formules Fa= new Formules();
 		
 		for(int i=0;i<v.size();i++)
 		{
-		  v.setElementAt(F.Doubler(v.elementAt(i)), i);
+		  v.setElementAt(Fa.Doubler(v.elementAt(i)), i);
 		}
 		
 		
