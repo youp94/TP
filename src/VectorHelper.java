@@ -1,6 +1,9 @@
 import java.util.Vector;
 
+
 public class VectorHelper {
+	
+	
 	
 	public static void tri(Vector<Integer> v) {
 		int longueur = v.size();
@@ -19,6 +22,8 @@ public class VectorHelper {
 		} while (permut);
 	}
 	
+	
+	
 	public static Vector<Integer> somme(Vector<Integer> v, Vector<Integer> v2)throws SizeException{
 		Vector<Integer> res = null;
 		if(v.size()!=v2.size()) {
@@ -32,6 +37,8 @@ public class VectorHelper {
 		return res;
 	}
 	
+
+	
 	public static void invese(Vector<Integer> v) {
 		int len = v.size();
 		int tmp;
@@ -42,7 +49,7 @@ public class VectorHelper {
 	    }
 	}
 	
-
+	
 	public static Integer[] MinMax(Vector<Integer> v)
 	{
 		Integer Tab[]=new Integer[2];
