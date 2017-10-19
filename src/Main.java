@@ -9,7 +9,6 @@ public class Main {
 		v.add(3);
 		v.add(10);
 		v.add(6);
-		
 		Vector<Integer> v2 = new Vector<>();
 		v2.add(5);
 		v2.add(4);
@@ -26,10 +25,16 @@ public class Main {
 		}
 		
 		VectorHelper.invese(res);
-		
+		VectorHelper.AppliquerFormule(res);
 		for(int i=0;i<res.size();i++) {
 			System.out.println(res.elementAt(i));
 		}
+		System.out.println();
+		
+		Integer[] tab = VectorHelper.MinMax(res);
+		System.out.println("min="+tab[0]+" max="+tab[1]);
+		
+		
 	}
 
 }
