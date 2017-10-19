@@ -2,17 +2,12 @@ import java.util.Vector;
 
 
 public class VectorHelper {
-<<<<<<< HEAD
-	
-	
-	
-=======
 	/**
 	 * 
 	 * @param v le vecteur en entr�e
 	 * La m�thode genere un vecteur tri� � partir de v 
 	 */
->>>>>>> refs/heads/hichem
+	
 	public static void tri(Vector<Integer> v) {
 		int longueur = v.size();
 		int tampon = 0;
@@ -29,11 +24,6 @@ public class VectorHelper {
 			}
 		} while (permut);
 	}
-<<<<<<< HEAD
-	
-	
-	
-=======
 	/**
 	 * 
 	 * @param v le premier vecteur � sommer 
@@ -42,7 +32,7 @@ public class VectorHelper {
 	 * @throws SizeException une excepiton en cas de difference
 	 *  de taille des 2 vecteurs v et v2
 	 */
->>>>>>> refs/heads/hichem
+
 	public static Vector<Integer> somme(Vector<Integer> v, Vector<Integer> v2)throws SizeException{
 		Vector<Integer> res = null;
 		if(v.size()!=v2.size()) {
@@ -55,17 +45,12 @@ public class VectorHelper {
 		}
 		return res;
 	}
-<<<<<<< HEAD
-	
 
-	
-=======
 	/**
 	 * 
 	 * @param v est le vecteur � inversser 
 	 * le methode effectue une inverssin du vecteur v 
 	 */
->>>>>>> refs/heads/hichem
 	public static void invese(Vector<Integer> v) {
 		int len = v.size();
 		int tmp;
@@ -75,16 +60,11 @@ public class VectorHelper {
 	        v.setElementAt(tmp, len-i-1);
 	    }
 	}
-<<<<<<< HEAD
-	
-	
-=======
 /**
  * 
  * @param v le vecteur dont on veut trouver son minimum et maximum
  * @return on retourne  un tableau de 2 cases contenant le min et le max de v
  */
->>>>>>> refs/heads/hichem
 	public static Integer[] MinMax(Vector<Integer> v)
 	{
 		Integer Tab[]=new Integer[2];
@@ -113,15 +93,11 @@ public class VectorHelper {
 	}
 	
 
-<<<<<<< HEAD
-	
-=======
 	/**
 	 * 
 	 * @param v est le vecteur dont on veut lui appliquer une formule 
 	 * precedement d�finie 
 	 */
->>>>>>> refs/heads/hichem
 	public static void AppliquerFormule(Vector<Integer> v)
 	{
 		//Formule est une classe qui contienne un ensemble d'operations 
