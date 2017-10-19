@@ -7,8 +7,8 @@ import java.util.Vector;
 public class VectorHelper {
 	/**
 	 * 
-	 * @param v le vecteur en entrée
-	 * La méthode genere un vecteur trié à partir de v 
+	 * @param v le vecteur en entrï¿½e
+	 * La mï¿½thode genere un vecteur triï¿½ ï¿½ partir de v 
 	 */
 	public static void tri(Vector<Integer> v) {
 		int longueur = v.size();
@@ -28,8 +28,8 @@ public class VectorHelper {
 	}
 	/**
 	 * 
-	 * @param v le premier vecteur à sommer 
-	 * @param v2 le second vecteur à sommer 
+	 * @param v le premier vecteur ï¿½ sommer 
+	 * @param v2 le second vecteur ï¿½ sommer 
 	 * @return le resultat de la somme de v+v2
 	 * @throws SizeException une excepiton en cas de difference
 	 *  de taille des 2 vecteurs v et v2
@@ -48,7 +48,7 @@ public class VectorHelper {
 	}
 	/**
 	 * 
-	 * @param v est le vecteur à inversser 
+	 * @param v est le vecteur ï¿½ inversser 
 	 * le methode effectue une inverssin du vecteur v 
 	 */
 	public static void invese(Vector<Integer> v) {
@@ -60,16 +60,11 @@ public class VectorHelper {
 	        v.setElementAt(tmp, len-i-1);
 	    }
 	}
-	
-<<<<<<< HEAD
-
-=======
 /**
  * 
  * @param v le vecteur dont on veut trouver son minimum et maximum
  * @return on retourne  un tableau de 2 cases contenant le min et le max de v
  */
->>>>>>> 1eb797f0f8f8df3d578d99e735d9292661b4c62b
 	public static Integer[] MinMax(Vector<Integer> v)
 	{
 		Integer Tab[]=new Integer[2];
@@ -98,15 +93,11 @@ public class VectorHelper {
 	}
 	
 
-<<<<<<< HEAD
-	
-=======
 	/**
 	 * 
 	 * @param v est le vecteur dont on veut lui appliquer une formule 
-	 * precedement définie 
+	 * precedement dï¿½finie 
 	 */
->>>>>>> 1eb797f0f8f8df3d578d99e735d9292661b4c62b
 	public static void AppliquerFormule(Vector<Integer> v)
 	{
 		//Formule est une classe qui contienne un ensemble d'operations 
