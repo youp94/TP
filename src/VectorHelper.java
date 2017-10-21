@@ -60,11 +60,11 @@ public class VectorHelper {
 	        v.setElementAt(tmp, len-i-1);
 	    }
 	}
-/**
- * 
- * @param v le vecteur dont on veut trouver son minimum et maximum
- * @return on retourne  un tableau de 2 cases contenant le min et le max de v
- */
+	/**
+	 * 
+	 * @param v le vecteur dont on veut trouver son minimum et maximum
+	 * @return on retourne  un tableau de 2 cases contenant le min et le max de v
+	 */
 	public static Integer[] MinMax(Vector<Integer> v)
 	{
 		Integer Tab[]=new Integer[2];
