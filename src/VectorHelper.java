@@ -5,7 +5,8 @@ public class VectorHelper {
 	/**
 	 * 
 	 * @param v le vecteur en entree
-	 * La méthode genere un vecteur trier a  partir de v 
+	 * La méthode genere un vecteur trier a  partir de V
+	 * ......;.. 
 	 */
 	
 	public static void tri(Vector<Integer> v) {
