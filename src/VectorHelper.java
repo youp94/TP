@@ -60,16 +60,13 @@ public class VectorHelper {
 	        v.setElementAt(tmp, len-i-1);
 	    }
 	}
-	
-<<<<<<< HEAD
+
 /**
  * 
  * @param v le vecteur dont on veut trouver son minimum et maximum
  * @return on retourne  un tableau de 2 cases contenant le min et le max de v
  */
-=======
 
->>>>>>> 3935b288368a7167540e887afdd2f0b6f15312f6
 	public static Integer[] MinMax(Vector<Integer> v)
 	{
 		Integer Tab[]=new Integer[2];
@@ -98,15 +95,13 @@ public class VectorHelper {
 	}
 	
 
-<<<<<<< HEAD
+
 	/**
 	 * 
 	 * @param v est le vecteur dont on veut lui appliquer une formule 
 	 * precedement définie 
 	 */
-=======
-	
->>>>>>> 3935b288368a7167540e887afdd2f0b6f15312f6
+
 	public static void AppliquerFormule(Vector<Integer> v)
 	{
 		//Formule est une classe qui contienne un ensemble d'operations 
