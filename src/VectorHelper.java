@@ -1,15 +1,13 @@
 import java.util.Vector;
-/**
- * 
- * @author azzaz hichem
- *
- */
+
+
 public class VectorHelper {
 	/**
 	 * 
-	 * @param v le vecteur en entrée
-	 * La méthode genere un vecteur trié à partir de v 
+	 * @param v le vecteur en entree
+	 * La méthode genere un vecteur trier a  partir de v 
 	 */
+	
 	public static void tri(Vector<Integer> v) {
 		int longueur = v.size();
 		int tampon = 0;
@@ -28,12 +26,13 @@ public class VectorHelper {
 	}
 	/**
 	 * 
-	 * @param v le premier vecteur à sommer 
-	 * @param v2 le second vecteur à sommer 
+	 * @param v le premier vecteur a sommer 
+	 * @param v2 le second vecteur a sommer 
 	 * @return le resultat de la somme de v+v2
 	 * @throws SizeException une excepiton en cas de difference
 	 *  de taille des 2 vecteurs v et v2
 	 */
+
 	public static Vector<Integer> somme(Vector<Integer> v, Vector<Integer> v2)throws SizeException{
 		Vector<Integer> res = null;
 		if(v.size()!=v2.size()) {
@@ -46,9 +45,10 @@ public class VectorHelper {
 		}
 		return res;
 	}
+
 	/**
 	 * 
-	 * @param v est le vecteur à inversser 
+	 * @param v est le vecteur   a inversser 
 	 * le methode effectue une inverssin du vecteur v 
 	 */
 	public static void invese(Vector<Integer> v) {
@@ -61,11 +61,19 @@ public class VectorHelper {
 	    }
 	}
 
+
 /**
  * 
  * @param v le vecteur dont on veut trouver son minimum et maximum
  * @return on retourne  un tableau de 2 cases contenant le min et le max de v
  */
+
+
+	/**
+	 * 
+	 * @param v le vecteur dont on veut trouver son minimum et maximum
+	 * @return on retourne  un tableau de 2 cases contenant le min et le max de v
+	 */
 
 	public static Integer[] MinMax(Vector<Integer> v)
 	{
@@ -99,18 +107,18 @@ public class VectorHelper {
 	/**
 	 * 
 	 * @param v est le vecteur dont on veut lui appliquer une formule 
-	 * precedement définie 
+	 * precedement definie 
 	 */
 
 	public static void AppliquerFormule(Vector<Integer> v)
 	{
 		//Formule est une classe qui contienne un ensemble d'operations 
 		//qu'on peut les appliquer sur un element d'un vecteur 
-		Formules Fa= new Formules();
+		Formules F= new Formules();
 		
 		for(int i=0;i<v.size();i++)
 		{
-		  v.setElementAt(Fa.Doubler(v.elementAt(i)), i);
+		  v.setElementAt(F.Doubler(v.elementAt(i)), i);
 		}
 		
 		
